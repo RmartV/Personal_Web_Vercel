@@ -14,7 +14,7 @@
         <div class="item3">
             <div class="flex-container">
                 <div>
-                    <img class="profpic" src="../images/gradpic.JPG" alt="Graduation Picture" style="  width: 1200px; 
+                    <img class="profpic" src="../images/gradpic.jpg" alt="Graduation Picture" style="  width: 1200px; 
                     max-width: 100%; 
                     height: auto;
                     box-shadow: 9px 0px 8px 0px rgba(0, 0, 0, 0.43); ">

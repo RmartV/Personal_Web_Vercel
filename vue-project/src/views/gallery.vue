@@ -22,7 +22,7 @@
         <ul class="slides">
           <li class="slide">
             <p class="slide-image">
-              <img src="../images/iteach.JPG" alt="stuff" width="1500" height="473">
+              <img src="../images/iteach.jpg" alt="stuff" width="1500" height="473">
             </p>
           </li>
           <li class="slide">
