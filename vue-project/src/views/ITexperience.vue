@@ -43,7 +43,7 @@
                   </li>
                   <li class="slide">
                     <p class="slide-image">
-                      <img src="../images/trackit.j../pg" alt="stuff" width="800" height="473">
+                      <img src="../images/trackit.jpg" alt="stuff" width="800" height="473">
                     </p>
                     <div class="slide-content">
                       <h2 class="slide-title">TrackIT</h2>
