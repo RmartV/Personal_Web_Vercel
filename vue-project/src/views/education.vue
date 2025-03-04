@@ -1,12 +1,12 @@
 <template>
         <div class="body">
     <div class="nav">
-        <a href="index.html">About me</a>
-        <a class="current" href="index_edu.html" style="color: black;">Education</a>
-        <a href="index_ITex.html">IT Experience</a>
-        <a href="index_hob.html">Hobbies & Interest</a>
-        <a href="index_goal.html">Goals In Life</a>
-        <a href="index_gall.html">Picture Gallery</a>
+        <RouterLink to="/">About me</RouterLink>
+        <RouterLink to="/education">Education</RouterLink>
+        <RouterLink to="/IT-Experience">IT Experience</RouterLink>
+        <RouterLink to="/hobby">Hobbies & Interest</RouterLink>
+        <RouterLink to="/goal">Goals In Life</RouterLink>
+        <RouterLink to="/gallery">Picture Gallery</RouterLink>
     </div>
 
     <div class="grid-container">
