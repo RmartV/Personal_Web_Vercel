@@ -59,4 +59,235 @@
     </div>
 </template>
 <script></script>
-<style></style>
+<style>.body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(#00539F, #001F3D, #001E39);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column; 
+  }
+  
+  
+  .nav {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap; 
+    background-image: linear-gradient(0.25turn, #001E39, #001F3D, #325D86);
+    width: 1600px; 
+    height: 55px;
+    margin: 45px auto; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .nav a {
+    color: #f2f2f2;
+    font-weight: bold;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  ui{
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+    line-height: 1.0;
+    margin: 0;
+    padding: 0;
+  }
+
+  h1{
+    font-weight: bold;
+    line-height: 2.0;
+  }
+
+  .nav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .nav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  .current{
+    background-color: #87a9c7;
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #102C46;
+    box-shadow: 5px 10px #001424;
+    width: 1000px;
+    height: 300px;
+    max-width: 90%; 
+  }
+  
+  
+
+  .flex-container ul, li{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 20px;
+  }
+
+  .flex-container h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 20px;
+  }
+
+  .image-container {
+    width: 200px; 
+    height: 200px; 
+    overflow: hidden; 
+    position: relative; 
+  }
+  
+  .image-container img {
+    width: 100%; 
+    height: auto; 
+    position: absolute;
+    align-items: end;
+    top: 55px; 
+    left: 60px;
+  }
+  
+  .item3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    
+  }
+  
+  .item3 p {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    color: aliceblue;
+    font-size: 23px;
+  }
+  .container {
+    display: grid;
+    width: 1025px;
+    grid-template-columns: auto auto auto;
+    gap:13px;
+    margin: 0 auto; 
+  }
+  .container > div {
+    background-color: #102C46;
+    box-shadow: 5px 10px #001424;
+    font-size: 30px;
+    padding-bottom: 20px;
+   
+  }
+  .container img {
+    width: 327px;
+    height: auto;
+    box-shadow: 0px 6px 15px 0px rgba(0,0,0,0.75);
+  }
+
+  .film-container {
+    display: grid;
+    width: 1000px;
+    grid-template-columns: auto auto auto auto;
+    gap:13px;
+    margin: 0 auto; 
+    padding-bottom: 90px;
+  }
+  .film-container > div {
+    background-color: #102C46;
+    box-shadow: 5px 10px #001424;
+    font-size: 30px;
+   
+  }
+  .film-container img {
+    width: 240px;
+    height: auto;
+    box-shadow: 0px 6px 15px 0px rgba(0,0,0,0.75);
+  }
+
+  footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+  }
+  
+  .top-games {
+    width: 1000px;
+    margin: 20px auto;
+    margin-top: 90px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+  
+.gameTitle{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  margin-top: 20px;
+}
+
+.moveiTitle{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.caption{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: white;
+  margin: 0 20px;
+
+}
+  @media (max-width: 1600px) {
+    .nav {
+        width: 90%; 
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .nav a {
+        font-size: 14px; 
+        padding: 10px 12px; 
+    }
+  
+    .flex-container {
+        flex-direction: column; 
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .nav {
+        width: 100%; 
+        margin: 20px auto;
+    }
+  
+    .nav a {
+        font-size: 12px;
+        padding: 8px 10px;
+    }
+  
+    .item3 p {
+        font-size: 14px;
+    }
+  }
+  @media (max-width: 1100px) {
+    .container, .top-games {
+        width: 90%;
+    }
+  }</style>
