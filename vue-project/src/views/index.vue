@@ -1,12 +1,12 @@
 <template>
         <div class="body">
     <div class="nav">
-        <a class="current" href="index.html" style="color: black;">About me</a>
-        <a href="index_edu.html">Education</a>
-        <a href="index_ITex.html">IT Experience</a>
-        <a href="index_hob.html">Hobbies & Interest</a>
-        <a href="index_goal.html">Goals In Life</a>
-        <a href="index_gall.html">Picture Gallery</a>
+        <RouterLink to="/">About me</RouterLink>
+        <RouterLink to="/education">Education</RouterLink>
+        <RouterLink to="/IT-Experience">IT Experience</RouterLink>
+        <RouterLink to="/hobby">Hobbies & Interest</RouterLink>
+        <RouterLink to="/goal">Goals In Life</RouterLink>
+        <RouterLink to="/gallery">Picture Gallery</RouterLink>
         
     </div>
 
@@ -32,7 +32,10 @@
     </div></footer>
 </div>
 </template>
-<script></script>
+<script>
+import { RouterLink } from 'vue-router';
+
+</script>
 <style>.body {
     margin: 0;
     padding: 0;
