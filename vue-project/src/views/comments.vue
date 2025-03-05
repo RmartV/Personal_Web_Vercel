@@ -35,7 +35,7 @@
 
     <footer>
         <div class="image-container">
-            <img src="images/rm.gif">
+            <img src="../images/rm.gif">
         </div>
     </footer>
 </template>
