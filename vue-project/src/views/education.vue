@@ -1,12 +1,13 @@
 <template>
         <div class="body">
     <div class="nav">
-        <RouterLink to="/">About me</RouterLink>
-        <RouterLink to="/education">Education</RouterLink>
+      <RouterLink to="/">About me</RouterLink>
+        <RouterLink to="/education" class="current" style="color: black;">Education</RouterLink>
         <RouterLink to="/IT-Experience">IT Experience</RouterLink>
         <RouterLink to="/hobby">Hobbies & Interest</RouterLink>
         <RouterLink to="/goal">Goals In Life</RouterLink>
         <RouterLink to="/gallery">Picture Gallery</RouterLink>
+        <RouterLink to="/comments">Comments</RouterLink>
     </div>
 
     <div class="grid-container">
